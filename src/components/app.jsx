@@ -57,7 +57,8 @@ class App extends Component {
               className="form-control"
               placeholder="I have to..."
             />
-            <input className="form-control" type="datetime-local">
+            <input className="form-control" type="datetime-local"
+            onClick={event => this.setState({dueDate: event.target.value})}>
 
             </input>
           </div>
