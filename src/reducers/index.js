@@ -6,7 +6,6 @@ const reminder = (action) => {
         id: Math.random(),
         text,
         dueDate
-
     }
 }
 const removeById = (state = [], id) =>  {
