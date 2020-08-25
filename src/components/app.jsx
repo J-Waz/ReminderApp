@@ -56,6 +56,9 @@ class App extends Component {
               className="form-control"
               placeholder="I have to..."
             />
+            <input className="form-control" type="datetime-local">
+              
+            </input>
           </div>
             <button onClick={() => this.addReminder()} type="button" className="btn btn-success">
               Add Reminder
