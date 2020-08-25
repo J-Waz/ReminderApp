@@ -8,7 +8,7 @@ const reminder = (action) => {
     }
 }
 
-const reminders = (state = {}, action) => {
+const reminders = (state = [], action) => {
     let reminders = null
     switch(action.type){
         case ADD_REMINDER:
