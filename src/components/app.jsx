@@ -8,6 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       text: "",
+      dueDate: ""
     };
   }
   addReminder() {
@@ -57,7 +58,7 @@ class App extends Component {
               placeholder="I have to..."
             />
             <input className="form-control" type="datetime-local">
-              
+
             </input>
           </div>
             <button onClick={() => this.addReminder()} type="button" className="btn btn-success">
